@@ -1,4 +1,5 @@
 <?php
+class newClass{
 function magic($str){
     //空格
     $str=trim($str);//Trim()删除字符串首尾的空白
@@ -8,4 +9,5 @@ function magic($str){
     }
     //过滤html
     return htmlspecialchars($str);//把预定义html标签转换为 HTML 实体：
+}
 }
